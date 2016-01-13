@@ -2,6 +2,6 @@
 # vim: ft=sls
 
 include:
-  - molten.api-packages
   - molten.api-configuration
+  - molten.api-packages
   - molten

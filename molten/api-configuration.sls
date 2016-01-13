@@ -8,5 +8,4 @@ salt-api-config:
     - name: {{ molten.api_config }}
     - template: jinja
     - source: salt://molten/files/api.conf.jinja
-    - watch_in:
-      - service: {{ molten.api_service }}
+
