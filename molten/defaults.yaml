@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+molten:
+  install_dir: '/opt'
+  api_package: 'salt-api'
+  api_service: 'salt-api'
+  api_config: '/etc/salt/master.d/api.conf'
+  api_bind_interface: 127.0.0.1
+  api_bind_port: 8000
+  api_users:
+    - nobody
+
+  package:
+    version: 0.2.0pre1
+    sha1: 4e0d28d1b07b976358d6465c9a76faf264e3b74c
