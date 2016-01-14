@@ -36,4 +36,4 @@ Note: Do not use binding to public interface in insecure networks at the moment.
 ``molten``
 ----------
 
-Downloads and installs the molten package to /opt/molten. Only use this state alone if you set-up and configure the Salt REST api on your own.
+Downloads and installs the molten package (/opt/molten by default). Only use this state alone if you set-up and configure the Salt REST api on your own.
