@@ -2,7 +2,7 @@
 molten-formula
 ==============
 
-A saltstack formula to install, configure and maintain the [Molten Salt UI](https://github.com/martinhoefling/molten).
+A saltstack formula to install, configure and maintain the `Molten Salt UI <https://github.com/martinhoefling/molten>`_.
 There are different states to set up required packages and the Salt API server, configure the Salt API for molten and
 A state to download and install a specific molten package.
 
