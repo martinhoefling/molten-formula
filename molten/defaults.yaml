@@ -11,5 +11,5 @@ molten:
     - nobody
 
   package:
-    version: 0.2.0pre1
-    sha1: 4e0d28d1b07b976358d6465c9a76faf264e3b74c
+    version: 0.2.0
+    sha1: 9e282941be0db44744f4dae70b8c78c2fc8b3ea4
