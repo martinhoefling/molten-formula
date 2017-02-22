@@ -9,7 +9,7 @@ molten-archive:
     - source: https://github.com/martinhoefling/molten/releases/download/v{{ molten.package.version }}/molten-{{ molten.package.version }}.tar.gz
     - source_hash: sha1={{ molten.package.sha1 }}
     - archive_format: tar
-    - tar_options: v
+    - options: v
     - if_missing: {{ molten.install_dir }}/{{ molten.package.version }}/
 
 molten-symlink:
