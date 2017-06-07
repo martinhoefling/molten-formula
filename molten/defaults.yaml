@@ -2,6 +2,7 @@
 # vim: ft=yaml
 molten:
   install_dir: '/opt'
+  url_basepath: ''
   api_package: 'salt-api'
   api_service: 'salt-api'
   api_config: '/etc/salt/master.d/api.conf'
